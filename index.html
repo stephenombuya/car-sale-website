@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carvana - Find Your Perfect Car</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Q8izfLjVsBxRQhUshqRU3XHmaibLgygylFnInSUxwScTfQ3geoxq3nTJGM*fuB8MqxmNpSquhM9vuUcwAgzIqQA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1><a href="#">Carvana</a></h1>
+        <button id="menuToggle" aria-label="Toggle Navigation Menu"><i class="fa fa-bars"></i></button>
+        <nav id="mainNav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#cars">Our Cars</a></li>
+                <li><a href="#spare-parts">Spare Parts</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contacts">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="banner">
+                <h1>Find Your Perfect Car</h1>
+                <p>We offer a wide selection of vehicles to fit your needs and budget.</p>
+                <a href="#cars">Browse Our Inventory</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                We are a dedicated team passionate about helping you find the perfect car. 
+            </p>
+                <ul>
+                    <li>
+                        <h3>Customer Satisfaction</h3>
+                        <p>We are committed to making sure every customer is fully satisfied with their purchase, from start to finish.</p>
+                    </li>
+                    <li>
+                        <h3>Transparency</h3>
+                        <p>We provide clear and open information about pricing, vehicle history, and every step of the buying process.</p>
+                    </li>
+                    <li>
+                        <h3>Quality and Reliability</h3>
+                        <p>Every vehicle in our inventory meets strict standards of safety, performance, and durability, ensuring you drive with confidence.</p>
+                    </li>
+                    <li>
+                        <h3>Integrity</h3>
+                        <p>We believe in honest, ethical business practices and respecting our customers' needs and budgets.</p>
+                    </li>
+                    <li>
+                        <h3>Innovation</h3>
+                        <p>We keep up with the latest trends in automotive technology to offer modern, efficient, and environmentally-friendly options.</p>
+                    </li>
+                    <li>
+                        <h3>Community Engagement</h3>
+                        <p>We care about our community and make efforts to support sustainable practices and local initiatives.</p>
+                    </li>
+                </ul>
+        </section>
+
+        <section id="cars">
+            <h2>Our Cars</h2>
+            <div class="car-list">
+                <div class="car-item">
+                    <img src="Images/lexus.jpeg" alt="Lexus LX-570">
+                    <h3>Lexus LX-570</h3>
+                    <p>Price: $50,000</p>
+                    <a href="#" data-car-id="lexus">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/lexus.jpeg" alt="Car Model">
+                    <h3>Lexus LX-570</h3>
+                    <p>Price: $50,000</p>
+                    <a href="#" data-car-id="lexus">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/lexus.jpeg" alt="Car Model">
+                    <h3>Lexus LX-570</h3>
+                    <p>Price: $50,000</p>
+                    <a href="#" data-car-id="lexus">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/porsche.jpeg" alt="Porsche Cayenne">
+                    <h3>Porsche Cayenne</h3>
+                    <p>Price: $150,000</p>
+                    <a href="#" data-car-id="porsche_cayenne">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/honda1.jpeg" alt="Honda">
+                    <h3>Honda</h3>
+                    <p>Price: $30,350</p>
+                    <a href="#" data-car-id="honda">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/honda2.jpeg" alt="Honda">
+                    <h3>Honda</h3>
+                    <p>Price: $30,350</p>
+                    <a href="#" data-car-id="honda">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/honda3.jpeg" alt="Honda">
+                    <h3>Honda</h3>
+                    <p>Price: $30,350</p>
+                    <a href="#" data-car-id="honda">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/honda4.jpeg" alt="Honda">
+                    <h3>Honda</h3>
+                    <p>Price: $30,350</p>
+                    <a href="#" data-car-id="honda">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/corolla1.jpeg" alt="Toyota Corolla">
+                    <h3>Toyota Corolla</h3>
+                    <p>Price: $22,150</p>
+                    <a href="#" data-car-id="corolla">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/corolla2.jpeg" alt="Toyota Corolla">
+                    <h3>Toyota Corolla</h3>
+                    <p>Price: $22,150</p>
+                    <a href="#" data-car-id="corolla">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/corolla3.jpeg" alt="Toyota Corolla">
+                    <h3>Toyota Corolla</h3>
+                    <p>Price: $22,150</p>
+                    <a href="#" data-car-id="corolla">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/corolla4.jpeg" alt="Toyota Corolla">
+                    <h3>Toyota Corolla</h3>
+                    <p>Price: $22,150</p>
+                    <a href="#" data-car-id="corolla">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/Nissan.jpeg" alt="Nissan">
+                    <h3>Nissan</h3>
+                    <p>Price: $21,000</p>
+                    <a href="#" data-car-id="nissan_hiace">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/passo1.jpeg" alt="Toyota Passo">
+                    <h3>Toyota Passo</h3>
+                    <p>Price: $15,000</p>
+                    <a href="#" data-car-id="passo">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/passo2.jpeg" alt="Toyota Passo">
+                    <h3>Car Model</h3>
+                    <p>Price: $15,000</p>
+                    <a href="#" data-car-id="passo">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/passo3.jpeg" alt="Toyota Passo">
+                    <h3>Toyota Passo</h3>
+                    <p>Price: $15,000</p>
+                    <a href="#" data-car-id="passo">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/passo4.jpeg" alt="Toyota Passo">
+                    <h3>Toyota Passo</h3>
+                    <p>Price: $15,000</p>
+                    <a href="#" data-car-id="passo">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/volkswagen.jpeg" alt="Volkswagen Touareg">
+                    <h3>Volkswagen Touareg</h3>
+                    <p>Price: $20,000</p>
+                    <a href="#" data-car-id="volkswagen_touareg"">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/volkswagen.jpeg" alt="Volkswagen Touareg">
+                    <h3>Volkswagen Touareg</h3>
+                    <p>Price: $49,495</p>
+                    <a href="#" data-car-id="volkswagen_touareg">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/ford1.jpeg" alt="Ford Ranger">
+                    <h3>Ford Ranger</h3>
+                    <p>Price: $32,820</p>
+                    <a href="#" data-car-id="ford_ranger">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/ford2.jpeg" alt="Ford">
+                    <h3>Ford</h3>
+                    <p>Price: $32,820</p>
+                    <a href="#" data-car-id="ford">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/ford3.jpeg" alt="Ford">
+                    <h3>Ford</h3>
+                    <p>Price: $32,820</p>
+                    <a href="#" data-car-id="ford">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/ford4.jpeg" alt="Ford">
+                    <h3>Ford</h3>
+                    <p>Price: $32,820</p>
+                    <a href="#" data-car-id="ford">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/toyotav8.jpeg" alt="Toyota Landcruiser">
+                    <h3>Toyota Landcruiser</h3>
+                    <p>Price: $38,250</p>
+                    <a href="#" data-car-id="toyota_landcruiser">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/toyotav8.jpeg" alt="Toyota Landcruiser">
+                    <h3>Toyota Landcruiser</h3>
+                    <p>Price: $38,250</p>
+                    <a href="#" data-car-id="toyota_landcruiser">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/toyotaV8.jpeg" alt="Toyota Landcruiser">
+                    <h3>Toyota Landcruiser</h3>
+                    <p>Price: $38,250</p>
+                    <a href="#" data-car-id="toyota_landcruiser">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/toyotaV8.jpeg" alt="Toyota Landcruiser">
+                    <h3>Toyota Landcruiser</h3>
+                    <p>Price: $38,250</p>
+                    <a href="#" data-car-id="toyota_landcruiser">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/bmw.jpeg" alt="BMW">
+                    <h3>BMW</h3>
+                    <p>Price: $36,350</p>
+                    <a href="#" data-car-id="bmw">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/bmw2.jpeg" alt="BMW">
+                    <h3>BMW</h3>
+                    <p>Price: $36,350</p>
+                    <a href="#" data-car-id="bmw">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/bmw2.jpeg" alt="BMW">
+                    <h3>BMW</h3>
+                    <p>Price: $36,350</p>
+                    <a href="#" data-car-id="bmw">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/corolla3.jpeg" alt="Toyota Corolla">
+                    <h3>Toyota Corolla</h3>
+                    <p>Price: $22,150</p>
+                    <a href="#" data-car-id="corolla">Learn More</a>
+                </div>
+
+                <div class="car-item">
+                    <img src="Images/corolla3.jpeg" alt="Toyota Corolla">
+                    <h3>Toyota Corolla</h3>
+                    <p>Price: $22,150</p>
+                    <a href="#" data-car-id="corolla">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Spare Parts -->
+        <section id="spare-parts">
+            <h2>Spare Parts</h2>
+            <p>We provide high-quality spare parts for various car models. Our inventory ensures that you get the right parts at the best prices.</p>
+            <div class="parts-list">
+                <div class="part-item">
+                    <img src="Images/engine.jpeg" alt="Engine Parts">
+                    <h3>Engine Parts</h3>
+                    <p>Price: $7550</p>
+                    <a href="#">View Details</a>
+                </div>
+                <div class="part-item">
+                    <img src="Images/brakePads.jpeg" alt="Brake Pads">
+                    <h3>Brake Pads</h3>
+                    <p>Price: $180</p>
+                    <a href="#">View Details</a>
+                </div>
+                <div class="part-item">
+                    <img src="Images/tires.jpeg" alt="Tires">
+                    <h3>Tires</h3>
+                    <p>Price: $120</p>
+                    <a href="#">View Details</a>
+                </div>
+
+                <div class="part-item">
+                    <img src="Images/battery.jpeg" alt="Car Battery">
+                    <h3>Car Battery</h3>
+                    <p>Price: $240</p>
+                    <a href="#">View Details</a>
+                </div>
+
+                <div class="part-item">
+                    <img src="Images/rims2.jpeg" alt="Car Rims">
+                    <h3>Car Rims</h3>
+                    <p>Price: $300</p>
+                    <a href="#">View Details</a>
+                </div>
+
+                <div class="part-item">
+                    <img src="Images/oil-filter.jpeg" alt="Oil Filter">
+                    <h3>Oil Filter</h3>
+                    <p>Price: $50</p>
+                    <a href="#">View Details</a>
+                </div>
+                <div class="part-item">
+                    <img src="Images/headlight.jpeg" alt="Headlight Bulbs">
+                    <h3>Headlight Bulbs</h3>
+                    <p>Price: $50</p>
+                    <a href="#">View Details</a>
+                </div>
+
+                <div class="part-item">
+                    <img src="Images/spare3.jpeg" alt="Tires">
+                    <h3>Tires</h3>
+                    <p>Price: $120</p>
+                    <a href="#">View Details</a>
+                </div>
+
+                <div class="part-item">
+                    <img src="Images/rims5.jpeg" alt="Car Rims">
+                    <h3>Car Rims</h3>
+                    <p>Price: $300</p>
+                    <a href="#">View Details</a>
+                </div>
+
+                <div class="part-item">
+                    <img src="Images/rims6.jpeg" alt="Car Rims">
+                    <h3>Car Rims</h3>
+                    <p>Price: $300</p>
+                    <a href="#">View Details</a>
+                </div>
+
+                <div class="part-item">
+                    <img src="Images/engine2.jpeg" alt="Engine Parts">
+                    <h3>Engine Parts</h3>
+                    <p>Price: $8100</p>
+                    <a href="#">View Details</a>
+                </div>
+
+                <div class="part-item">
+                    <img src="Images/wheelhub.webp" alt="Wheel Hub">
+                    <h3>Wheel Hub</h3>
+                    <p>Price: $480</p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Customer Reviews Section -->
+        <section id="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="reviews-list">
+                <div class="review-item">
+                    <img src="Images/woman1.jpeg" alt="customer image">
+                    <p>"Amazing service! I found my dream car and the team was incredibly helpful."</p>
+                    <p>- Sarah L.</p>
+                </div>
+                <div class="review-item">
+                    <img src="Images/man2.jpeg" alt="customer image">
+                    <p>"Highly recommend! Honest and transparent process, and the prices were great."</p>
+                    <p>- Mike R.</p>
+                </div>
+                <div class="review-item">
+                    <img src="Images/man3.jpeg" alt="customer image">
+                    <p>"Great selection and friendly staff. I’ll definitely come back for my next car."</p>
+                    <p>- Alex K.</p>
+                </div>
+                <div class="review-item">
+                    <img src="Images/woman4.jpeg" alt="customer image">
+                    <p>"Exceptional customer service and a smooth buying experience from start to finish."</p>
+                    <p>- Emma P.</p>
+                </div>
+                <div class="review-item">
+                    <img src="Images/man5.jpeg" alt="customer image">
+                    <p>"Excellent car quality and competitive pricing. I’m extremely satisfied with my purchase."</p>
+                    <p>- David M.</p>
+                </div>
+                <div class="review-item">
+                    <img src="Images/woman2.jpeg" alt="customer image">
+                    <p>"The team went above and beyond to find the perfect vehicle for me. Thank you!"</p>
+                    <p>- Linda J.</p>
+                </div>
+                <div class="review-item">
+                    <img src="Images/man1.jpeg" alt="customer image">
+                    <p>"Fast, easy, and professional. I’ve never had such a smooth car-buying experience."</p>
+                    <p>- Carlos V.</p>
+                </div>
+                <div class="review-item">
+                    <img src="Images/woman3.jpeg" alt="customer image">
+                    <p>"Very knowledgeable staff who helped me understand all the details. Highly recommended!"</p>
+                    <p>- Emily T.</p>
+                </div>
+                <div class="review-item">
+                    <img src="Images/man4.jpeg" alt="customer image">
+                    <p>"I was impressed by the variety of options. I’ll be referring friends and family!"</p>
+                    <p>- Nathan W.</p>
+                </div>
+                <div class="review-item">
+                    <img src="Images/woman5.jpeg" alt="customer image">
+                    <p>"A trustworthy dealership with a commitment to quality. I love my new car!"</p>
+                    <p>- Chloe B.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact-wrapper">
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#cars">Our Cars</a></li>
+                    <li><a href="#spare-parts">Spare Parts</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contacts">Contact Us</a></li>
+                </ul>
+            </div>
+        
+            <section id="contacts">
+                <h2>Contact Us</h2>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@carvana.com</p>
+                <p>Address: 123 Car Street, Auto City</p>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-amazon"></i></a></li>
+                </ul>
+            </section>
+        </section>        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Carvana. All Rights Reserved.</p>
+    </footer>
+
+    <button id="backToTop">Back to Top</button>
+    
+    <!-- Car Details Modal -->
+    <div id="carModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="carName"></h2>
+            <p id="carDescription"></p>
+            <ul id="carSpecs"></ul>
+        </div>
+    </div>
+
+    <!-- Spare-Parts Modal Structure -->
+    <div id="sparePartModal" class="spare-part-modal">
+        <div class="spare-part-modal-content">
+            <span class="spare-part-close-button">&times;</span>
+            <h3 id="modal-title">Spare Part Title</h3>
+            <p id="modal-description">Description of the spare part goes here.</p>
+            <p id="modal-price">Price: $<span id="modal-price-value"></span></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Car Details</h1>
+    </header>
+
+    <main id="car-details">
+        <!-- Car details will be displayed here -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Car Sales. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Get car ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const carId = parseInt(urlParams.get('id'));
+
+        // Find the car in our data
+        const car = cars.find(car => car.id === carId);
+
+        // Display car details if found
+        const carDetailsSection = document.getElementById('car-details');
+        if (car) {
+            carDetailsSection.innerHTML = `
+                <div class="car-item">
+                    <img src="${car.imageUrl}" alt="${car.make} ${car.model}">
+                    <h2>${car.make} ${car.model}</h2>
+                    <p>Year: ${car.year}</p>
+                    <p>Price: $${car.price.toLocaleString()}</p>
+                    <p>Mileage: ${car.mileage.toLocaleString()} miles</p>
+                    <p>Description: ${car.description || 'No additional information available.'}</p>
+                </div>
+            `;
+        } else {
+            carDetailsSection.innerHTML = `<p>Car not found!</p>`;
+        }
+    </script>
+</body>
+</html>
